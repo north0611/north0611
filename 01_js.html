@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+
+<body>
+    <h1>内容head</h1>
+    <script>
+        document.write("<h1>内容</h1>");
+        document.write('<h1>abc1</h1>');
+        document.write("<h1>abc2</h1>");
+    </script>
+
+    <button type='button' onclick='alert("welcome!")'> 确认 </button>
+
+    <name1>
+        <br />我本如此
+    </name1>
+
+    <p class="name1">
+        我本如此
+    </p>
+
+    <p name="name1">
+        我本如此
+    </p>
+
+    <p id="name1">
+        我本如此
+    </p>
+
+    <script>
+        x = document.getElementById("name1");
+        x.innerHTML = "js把我贬了"
+    </script>
+
+    <script>
+        function changeImage() {
+            elem = document.getElementById('image1')
+            if (elem.src.match('off')) {
+                elem.src = './on.jpg'
+            }
+            else {
+                elem.src = '.\\off.jpg'
+            }
+        }
+    </script>
+
+    <p id="char">
+        我本黑色
+    </p>
+
+    <script>
+        elem1=document.getElementById('char')
+        elem1.style.color="#ff0000"
+    </script>
+
+    <image id='image1' onclick='changeImage()' src='.\\off.jpg'>
+
+
+    <input id='value1' type="text"></input>
+    <button type='button' onclick='pending()'> 确认 </button>
+
+    <script>
+        function pending() 
+        {
+            alert("!!!!!!!!")
+            elem2=document.getElementById('value1')
+            if(isNaN(elem2.value))
+                alert("不是数字")
+        }
+    </script>
+
+        <h1>内容body</h1>
+</body>
+
+</html>
