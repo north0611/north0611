@@ -11,9 +11,15 @@
     user-scalable=yes” />
 </HEAD>
 <BODY>
-<h1> 今天是:<br>
-<script>document.write(date())</script>
-</h1>
+<h2> 今天是:<br>
+<script>
+date = new Date();
+document.write(
+date.getFullYear() + "."
+date.getMonth() + "."
+date.getDate())
+</script>
+</h2>
 <h2>下一事件:<br>2019.12.1 日语N3考试</h2>
 <table rules="all" border="2">
     <tr>
