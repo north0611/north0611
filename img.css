@@ -1,0 +1,23 @@
+.header {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+.pointer {
+    color: gray;
+}
+
+.pointer:hover {
+    color: red;
+}
+
+.point-container {
+    text-align: center;
+}
