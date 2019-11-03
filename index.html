@@ -19,31 +19,32 @@
     <!-- 3.字在图片之上显示 -->
     <!-- 4.显示小点 -->
     <div class="image-container">
-        <div>
-            <!--div>1/3</div-->
-            <p class="header">1/3</p>
-            <image class="img" id="img1" src="https://c.runoob.com/wp-content/uploads/2017/01/img_mountains_wide.jpg"></image>
-            <!--div>这是第一幅图片</div-->
-            <p class="footer">这是第一幅图片</p>
+        <!-- 5.图片文字一起消失<且3个div不再自上而下顺序表示> -->
+        <div class="img">
+            <div class="header">1/3</div>
+            <!--p class="header">1/3</p-->
+            <image id="img1" src="https://c.runoob.com/wp-content/uploads/2017/01/img_mountains_wide.jpg" style="width: 100%"></image>
+            <div class="footer">这是第一幅图片</div>
+            <!--p class="footer">这是第一幅图片</p-->
         </div>
-        <div>
-            <!--div>2/3</div-->
-            <p class="header">2/3</p>
-            <image class="img" id="img2" src="https://c.runoob.com/wp-content/uploads/2017/01/img_fjords_wide.jpg"></image>
-            <!--div>这是第二幅图片</div-->
-            <p class="footer">这是第二幅图片</p>
+        <div  class="img">
+            <div class="header">2/3</div>
+            <!--p class="header">2/3</p-->
+            <image id="img2" src="https://c.runoob.com/wp-content/uploads/2017/01/img_fjords_wide.jpg" style="width: 100%"></image>
+            <div class="footer">这是第二幅图片</div>
+            <!--p class="footer">这是第二幅图片</p-->
         </div>
-        <div>
-            <!--div>3/3</div-->
-            <p class="header">3/3</p>
-            <image class="img" id="img3" src="https://c.runoob.com/wp-content/uploads/2017/01/img_nature_wide.jpg"></image>
-            <!--div>这是第三幅图片</div-->
-            <p class="footer">这是第三幅图片</p>
+        <div class="img">
+            <div class="header">3/3</div>
+            <!--p class="header">3/3</p-->
+            <image id="img3" src="https://c.runoob.com/wp-content/uploads/2017/01/img_nature_wide.jpg" style="width: 100%"></image>
+            <div class="footer">这是第三幅图片</div>
+            <!--p class="footer">这是第三幅图片</p-->
         </div>
         <div class="point-container">
-            <span class="point">O</span>
-            <span class="point">O</span>
-            <span class="point">O</span>
+            <span class="point"></span>
+            <span class="point"></span>
+            <span class="point"></span>
         </div>
     </div>
     <script src="img.js"></script>

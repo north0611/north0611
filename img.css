@@ -1,19 +1,50 @@
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.image-container {
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+  }
+
 .header {
     text-align: left;
+ 
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+
+    position: absolute;
+    top: 0;
 }
 
 .footer {
     text-align: center;
+
+    color: #f2f2f2;
+    font-size: 15px;
+    /* 内边距属性 */
+    padding: 8px 12px;
+
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
 }
 
 .img {
     text-align: center;
+}
+/* image标签上设置无效？本身没有class时 */
+image {
+    /* 3.图片随页面缩小 */
+    width: 100%;
 }
 
 .pointer {
     color: gray;
 }
 
+/* 1.鼠标聚焦 */
+/* 2.显示圆圈 */
 .pointer:hover {
     color: red;
 }
